@@ -1,0 +1,115 @@
+/*
+
+font-family: acumin-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+*/
+
+/*
+
+font-family: big-caslon-fb, serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+/*
+font-family: bodoni-urw, serif;
+font-weight: 500;
+font-style: italic;
+*/
+
+/*FONTS*/
+.acumin-para, .namegrid, p {
+font-family: acumin-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.acumin, .profilename, .webexlink {
+font-family: acumin-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 40px;
+}
+
+.titletext {
+font-family: bodoni-urw, serif;
+font-weight: 500;
+font-style: italic;
+font-size: 70px;
+text-transform: uppercase;
+}
+
+/* END FONTS*/
+
+body{
+  font-family: sans-serif;
+  color: white;
+}
+
+.section {
+  text-align: center;
+}
+
+.headersection {
+background: url(groupphoto-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*BACKGROUND IMAGES FOR EACH SLIDE START HERE*/
+/*GAMES/VIDEO*/
+.slidea1{
+  background: url(video-games-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*HEALTH*/
+.slideb1{
+  background: url(health-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*MARKETING*/
+.slidec1{
+  background: url(socialmedia-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*INFORMATIVE*/
+.slided1{
+  background: url(website-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*MOBILE/WEB*/
+.slidee1{
+  background: url(education-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*MEDIA QUERIES START HERE*/
+
+@media (max-width: 699px)  {
+  .thumbnail {
+    width: 170px;
+    height: auto;
+  }
+	.titletext {
+		font-size: 45px;
+	}
+	
+	.acumin {
+		font-size: 30px;
+	}
+}
+
+
+
